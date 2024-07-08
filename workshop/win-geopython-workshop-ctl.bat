@@ -21,12 +21,12 @@ REM Sniff which Docker Compose variant is installed
 REM and set an alias.
 REM See https://github.com/geopython/geopython-workshop/issues/82
 docker-compose --version >NUL
-IF %ERRORLEVEL% EQU 0 (
+IF !ERRORLEVEL! EQU 0 (
     SET DOCKERCOMPOSE=docker-compose
     ECHO Using docker-compose
 ) ELSE (
     docker compose version >NUL
-    IF %ERRORLEVEL% NEQ 0 (
+    IF !ERRORLEVEL! NEQ 0 (
         ECHO Neither docker-compose nor docker compose is available
         ECHO Check your Docker Installation
         ENDLOCAL
