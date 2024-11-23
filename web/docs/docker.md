@@ -36,7 +36,7 @@ In our texts we will use `docker-compose`. Depending on your installation you ma
 to replace the hyphen (`-`) with a space. But you can always install the original
 compose (`docker-compose`) via `pip install docker-compose`.
 
-For many platforms a product called `Docker Desktop` is available, which includes `Docker Compose`:
+For many platforms a product called [Docker Desktop](https://docs.docker.com/desktop) is available, which includes the main Docker components:
 
 * Windows [installation](https://docs.Docker.com/desktop/install/windows-install)
 * Mac [installation](https://docs.Docker.com/desktop/install/mac-install)
@@ -44,7 +44,8 @@ For many platforms a product called `Docker Desktop` is available, which include
 
 Some notes:
 
-* On Windows we recommend using the [Windows Subsystem for Linux v2](https://docs.microsoft.com/en-us/windows/wsl) (WSL2) as it also provides a powerful (Bash) command line and has optimal integration with Docker
+* On Windows we recommend using the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl) (WSL) as it also provides a powerful (Bash) command line and has optimal integration with Docker.  Before installing Docker Desktop, install WSL by opening Microsoft PowerShell (run as administrator) and running `wsl --install`
+    * **installing WSL requires administrator privileges on your system**
 * On Mac, if you are using [Homebrew](https://brew.sh), consider (as the author has) using the [brew Docker formula](https://formulae.brew.sh/formula/Docker)
 * On Linux, you can choose the relevant installer for your platform. You can also use Virtualbox with a Ubuntu Image or use a cloud VM
 * Docker desktop includes a graphical user interface with some interesting options. You can see logs and information about running containers, open their service in a browser or even open a terminal inside the container

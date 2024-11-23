@@ -23,7 +23,7 @@ The core requirement is to have [Docker](https://docker.com) and [Docker Compose
 on the system.  Once you have Docker and Docker Compose installed you will be
 able to install and run the workshop without any other dependencies.
 
-More information on installing Docker can also be found [here](./docker).
+More information on installing Docker can also be found [here](./docker.md).
 
 ### Optional requirements
 
