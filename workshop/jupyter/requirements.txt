@@ -6,7 +6,7 @@ OWSLib
 geopandas
 descartes
 folium
-bokeh==2.4.3
+bokeh
 ipyleaflet
 pandas-bokeh
 pydeck

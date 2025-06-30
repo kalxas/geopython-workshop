@@ -26,7 +26,7 @@
 # OTHER DEALINGS IN THE SOFTWARE.
 #
 # =================================================================
-FROM ubuntu:jammy
+FROM ubuntu:noble
 
 LABEL maintainer="Just van den Broecke <justb4@gmail.com>"
 
@@ -55,7 +55,7 @@ RUN \
     && apt-get --no-install-recommends install -y ${DEB_PACKAGES} \
     && update-locale LANG=${LANG} \
     && echo "For ${TZ} date=$(date)" && echo "Locale=$(locale)" \
-	&& pip3 install -r /jupyter/requirements.txt \
+	&& pip3 install -r /jupyter/requirements.txt --break-system-packages \
 	&& if [ ${ADD_PIP_PACKAGES} != "" ] ; then pip3 install ${ADD_PIP_PACKAGES}; fi \
 	&& apt-get remove --purge ${DEB_BUILD_DEPS} -y \
 	&& apt autoremove -y  \
