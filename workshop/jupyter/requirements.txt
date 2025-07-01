@@ -1,5 +1,5 @@
 # Shapely  (via apt)
-tornado==6.2
+tornado
 jupyter-client
 jupyter
 OWSLib
@@ -8,8 +8,6 @@ descartes
 folium
 bokeh
 ipyleaflet
-pandas-bokeh
 pydeck
 pygeometa # >0.7 removed by Just
 matplotlib
-six

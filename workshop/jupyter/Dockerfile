@@ -41,7 +41,7 @@ ENV TZ=${TZ} \
 	LANG=${LANG} \
 	DEBIAN_FRONTEND="noninteractive" \
 	DEB_BUILD_DEPS="gpg-agent software-properties-common build-essential apt-utils python3-dev libproj-dev" \
-	DEB_PACKAGES="locales locales-all proj-bin python3-shapely python3-pyproj python3-setuptools python3-pip python3-gdal python3-fiona python3-rasterio ${ADD_DEB_PACKAGES}" \
+	DEB_PACKAGES="locales locales-all proj-bin python3-shapely python3-pyproj python3-setuptools python3-pip python3-gdal python3-fiona python3-rasterio python3-six ${ADD_DEB_PACKAGES}" \
 	PROJ_DIR="/usr"
 
 COPY ./requirements.txt /jupyter/requirements.txt
