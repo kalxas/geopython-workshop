@@ -34,9 +34,19 @@ cd workshop
 ./geopython-workshop-ctl.sh stop
 ```
 
-Windows (Powershell):
+Windows (Command Prompt):
+
+```bat
+cd workshop
+.\win-geopython-workshop-ctl.bat start
+.\win-geopython-workshop-ctl.bat url
+.\win-geopython-workshop-ctl.bat stop
+```
+
+Windows (Powershell + bash):
 
 ```bash
+cd workshop
 # start workshop
 bash ./geopython-workshop-ctl.sh start
 # display URL and open in default web browser
@@ -44,6 +54,8 @@ bash ./geopython-workshop-ctl.sh url
 # stop workshop
 bash ./geopython-workshop-ctl.sh stop
 ```
+
+
 
 NB [Jupyter notebook](https://en.wikipedia.org/wiki/Project_Jupyter) needs a **token**. The token is displayed in the jupyter container logs on startup:
 
