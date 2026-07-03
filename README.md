@@ -121,6 +121,8 @@ Then you can open port 8888 in the browser:
 Paste in the token you copied above:
 <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/adce8d62-52bb-4110-bdbb-479b61dca23a" />
 
+NOTE: Please consult [GitHub Codespaces documentation](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces#free-and-billed-use-by-personal-accounts) for more information on personal GitHub accounts and free usage.
+
 ### Bugs and Issues
 
 All bugs, enhancements and issues are managed
