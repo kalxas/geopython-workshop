@@ -228,6 +228,8 @@ To run this workshop via GitHub Codespaces, please complete the following steps:
 
 Note that a GitHub account is required.
 
+NOTE: Please consult [GitHub Codespaces documentation](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces#free-and-billed-use-by-personal-accounts) for more information on personal GitHub accounts and free usage.
+
 ### Binder
 
 There is a Cloud version of the Jupyter-Notebook-part of the workshop, 
